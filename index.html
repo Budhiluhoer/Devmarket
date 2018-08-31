@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Devmart</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="script/waslidemenu/dist/waslidemenu.css">
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+</head>
+<body>
+
+<nav class="navbar container-fluid">
+	<div class="navbar-header container">
+		
+		<ul class="navbar navbar-nav">
+			<li class="nav-link"><a href="" class="navbar-brand">Devmart</a></li>
+			<li class="nav-link"><a href="" class="btn">Kategori</a></li>
+		</ul>
+		
+		<form class="navbar-form navbar-left">
+			<div class="form-group">
+				<input type="text" class="form-control" size="50" placeholder="Cari Produk yuk..">
+			</div>
+				<button class="btn" id="cari">CARI</button>
+		</form>
+
+		<ul class="navbar navbar-nav navbar-right">
+			<li class="nav-link"><a href=""><img src="assets/cart.png" id="cart"></a></li>
+			<li class="nav-link">
+				<!-- navbar-toggle : hide -->
+				<a href="" class="btn" id="signin">Masuk</a>
+			</li>
+			<li class="nav-link"><a href="" class="btn" id="signup">Daftar</a></li>
+		</ul>
+
+	</div>
+</nav>
+<!-- <nav id="mymenu" class="container">
+	<ul>
+		<li>
+			<a href="#1"><img class="silder-img" src="https://images.unsplash.com/photo-1515704089429-fd06e6668458?ixlib=rb-0.3.5&s=f70cea23233734dc4e283a8b3aff8451&auto=format&fit=crop&w=500&q=60"></a>
+			<ul>
+				<li>
+                    <a href="#1.1"><img class="silder-img" src="https://images.unsplash.com/photo-1516656690944-e76698b2aa38?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f979f0bcf2c9c52c039f5f3227e658c7&auto=format&fit=crop&w=500&q=60"></a>
+                    <ul>
+                    	<li>
+                    		<a href=""><img class="silder-img" src="https://images.unsplash.com/photo-1515704089429-fd06e6668458?ixlib=rb-0.3.5&s=f70cea23233734dc4e283a8b3aff8451&auto=format&fit=crop&w=500&q=60"></a>
+                    	</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</nav> -->
+
+<div class="col-md-12" id="hot">
+<h3 class="animated fadeInLeft">Promo Sale : </h3>
+
+  <div class="col-sm-2 col-md-2 col-md-offset-1">
+    <div class="thumbnail animated bounceIn">
+    <a href="">
+      <img src="http://www.produktif.net/wp-content/uploads/2017/08/tshirt-codepolitan-750x750.jpg" alt="Codepolitan Eksklusif">
+    </a>
+      <div class="caption">
+        <h4>Kaos CodePolitan Ekslusif</h4>
+        <span class="harga-coret">Rp. 100.000</span>
+        <h4 class="harga">Rp. 80.000</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-2 col-md-2">
+    <div class="thumbnail animated bounceIn">
+    <a href="">
+      <img src="assets/case-prog.PNG" alt="...">
+    </a>
+      <div class="caption">
+        <h4>Case Programmer</h4>
+        <span class="harga-coret">Rp. 90.000</span>
+        <h4 class="harga">Rp. 70.000</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-2 col-md-2">
+    <div class="thumbnail animated bounceIn">
+    <a href="">
+      <img src="http://www.produktif.net/wp-content/uploads/2017/10/kaos-meningjadisolusi.jpg" alt="...">
+    </a>
+      <div class="caption">
+        <h4>Kasos Mending Jadi Solusi</h4>
+        <span class="harga-coret">Rp. 100.000</span>
+        <h4 class="harga">Rp. 85.000</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-2 col-md-2">
+    <div class="thumbnail animated bounceIn">
+    <a href="">
+      <img src="assets/laptop.PNG" alt="...">
+    </a>
+      <div class="caption">
+        <h4>Laptop Garskin Programmer</h4>
+        <span class="harga-coret">Rp. 95.000</span>
+        <h4 class="harga">Rp. 80.000</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-2 col-md-2">
+    <div class="thumbnail animated bounceIn">
+    <a href="">
+      <img src="http://www.produktif.net/wp-content/uploads/2017/07/cover-16-750x750.jpg" alt="...">
+    </a>
+      <div class="caption">
+        <h4>Membangun Web Aplikasi</h4>
+        <span class="harga-coret">Rp. 95.000</span>
+        <h4 class="harga">Rp. 70.000</h4>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- ============================== HOT ==================================== -->
+
+<!-- ============ produk =============== -->
+<div class="col-md-12" id="product">
+
+  <div class="col-sm-3 col-md-3">
+    <div class="thumbnail">
+    <a href="">
+      <img src="https://i1.wp.com/belajarphp.net/wp-content/uploads/2017/12/Screenshot_15-1.png?resize=270%2C283&ssl=1" alt="...">
+    </a>
+      <div class="caption">
+        <h4>Membangun Sistem Informasi Rumah sakit</h4>
+        <span class="harga-coret">Rp. 120.000</span>
+        <h4 class="harga">Rp. 95.000</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-3 col-md-3">
+    <div class="thumbnail">
+    <a href="">
+      <img src="https://i1.wp.com/belajarphp.net/wp-content/uploads/2017/08/CODER-TIPS-DAN-TRIK-MASTER-CODEIGNITER.png?resize=270%2C283&ssl=1" alt="...">
+    </a>
+      <div class="caption">
+        <h4>Kumpulan Tips&Trik Aplikatif Pilihan Master CodeIgniter</h4>
+        <span class="harga-coret">Rp. 100.000</span>
+        <h4 class="harga">Rp. 80.000</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-3 col-md-3">
+    <div class="thumbnail">
+    <a href="">
+      <img src="https://i0.wp.com/belajarphp.net/wp-content/uploads/2017/08/24-jam-menguasai-codeigniter-fahmi.png?resize=270%2C283&ssl=1" alt="...">
+    </a>
+      <div class="caption">
+        <h4>24 Jam mahir Menguasai CodeIgniter</h4>
+        <span class="harga-coret">Rp. 120.000</span>
+        <h4 class="harga">Rp. 95.000</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-3 col-md-3">
+    <div class="thumbnail">
+    <a href="">
+      <img src="https://i2.wp.com/belajarphp.net/wp-content/uploads/2017/08/belajar-dasar-php-mysql-fahmi-nugraha.png?resize=270%2C283&ssl=1" alt="...">
+    </a>
+      <div class="caption">
+      	<h4>Belajar Dasar PHP MySQL</h4>
+        <span class="harga-coret">Rp. 120.000</span>
+        <h4 class="harga">Rp. 95.000</h4>
+      </div>
+    </div>
+  </div>
+
+<!-- ============================ -->
+
+<div class="col-md-12" id="product">
+
+  <div class="col-sm-2 col-md-2 col-md-offset-1">
+    <div class="thumbnail">
+    <a href="">
+      <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTLPetDuK8b6fRMHZAKHwsgSZ9Ovhao4MrL76Le4nsv6iPwk65FMNoKLi4VzqRoaGvp3i6-e0E18NkHyrrRjUamySAQvQT-YYurz7QCGYOpJJ_msRIWpFuRag&usqp=CAE" alt="...">
+    </a>
+      <div class="caption">
+        <h3>Startup Founder</h3>
+        <span class="harga-coret">Rp. 120.000</span>
+        <h4 class="harga">Rp. 95.000</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-2 col-md-2">
+    <div class="thumbnail">
+    <a href="">
+      <img src="https://i0.wp.com/belajarphp.net/wp-content/uploads/2018/07/Screenshot_34.png?resize=270%2C283&ssl=1" alt="...">
+    </a>
+      <div class="caption">
+        <h4>Jago Codeigniter</h4>
+        <span class="harga-coret">Rp. 120.000</span>
+        <h4 class="harga">Rp. 95.000</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-2 col-md-2">
+    <div class="thumbnail">
+    <a href="">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR7m87plwpFuSCLTe8v8G5veV2-UDLchYEs8OhnLzuHnSgjafTMaMivvwiUEiHYBCUXRO1ZnVMCceIyrl3-aIEe1SesgRRMR0qqp3fntiD2pOQr8UWDRxnzfA&usqp=CAE" alt="...">
+    </a>
+      <div class="caption">
+        <h4>I Am Programmer I Have No Life</h4>
+        <span class="harga-coret">Rp. 120.000</span>
+        <h4 class="harga">Rp. 95.000</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-2 col-md-2">
+    <div class="thumbnail">
+    <a href="">
+      <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSTBwRnAwHsHg1parnJq9zGfCOvE8e5Vce3zBbPGyY6dyHpRcCm3u-1LZwyVgjKxv_NkP1QM1SXhKLuDcNoGnSHOfscUQ9xhYgReHAmq-LZMJbtshHorchW_w&usqp=CAE" alt="...">
+    </a>
+      <div class="caption">
+        <h4>Yes I am a Programmer</h4>
+        <span class="harga-coret">Rp. 120.000</span>
+        <h4 class="harga">Rp. 95.000</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-2 col-md-2">
+    <div class="thumbnail">
+    <a href="">
+      <img src="https://i2.wp.com/belajarphp.net/wp-content/uploads/2017/10/Screenshot_3.png?resize=270%2C283&ssl=1" alt="...">
+    </a>
+      <div class="caption">
+        <h4>Android Devlopment</h4>
+        <span class="harga-coret">Rp. 120.000</span>
+        <h4 class="harga">Rp. 95.000</h4>
+      </div>
+    </div>
+  </div>
+
+<!-- =============== kategori ============= -->
+
+<div class="col-md-12" id="kategori">
+	<div class="container">
+		<table class="table text-center" id="tabel">
+			<tr>
+				<td><a href="">DVD Web Programming</a></td>
+				<td><a href="">DVD Android Development</a></td>
+				<td><a href="">DVD IOS Development</a></td>
+				<td><a href="">DVD Web Design</a></td>
+			</tr>
+			<tr>
+				<td><a href="">Buku Web Programming</a></td>
+				<td><a href="">Buku Android Development</a></td>
+				<td><a href="">Buku IOS Development</a></td>
+				<td><a href="">Buku Web Design</a></td>
+			</tr>
+			<tr>
+				<td><a href="">E-Book Web Programming</a></td>
+				<td><a href="">E-Book Android Development</a></td>
+				<td><a href="">E-Book IOS Development</a></td>
+				<td><a href="">E-Book Web Design</a></td>
+			</tr>
+			<tr>
+				<td><a href="">Komputer & Aksesoris</a></td>
+				<td><a href="">Laptop & Aksesoris</a></td>
+				<td><a href="">Software</a></td>
+				<td><a href="">Hardware</a></td>
+			</tr>
+			<tr>
+				<td><a href="">CMS & Tamplate</a></td>
+				<td><a href="">Tamplate Website</a></td>
+				<td><a href="">Kaos Programmer</a></td>
+				<td><a href="">Aksesori Programmer</a></td>
+			</tr>
+			<tr>
+				<td><a href="">Aplikasi Website</a></td>
+				<td><a href="">Aplikasi Android</a></td>
+				<td><a href="">Applikasi IOS</a></td>
+				<td><a href="">Aplikasi Desktop</a></td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+<!-- ======== JAMINAN ========== -->
+
+<div class="col-md-12" id="jaminan">
+
+  <div class="col-sm-2 col-md-2 col-md-offset-2">
+    <div class="thumbnail animated fadeIn">
+    <a href="">
+      <img src="https://image.flaticon.com/icons/svg/265/265704.svg" alt="Codepolitan Eksklusif">
+    </a>
+      <div class="caption">
+        <h4>Jaminan 100% Aman</h4>
+        <p>Payment system menjamin keamanan uang Anda dalam bertransaksi</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-2 col-md-2">
+    <div class="thumbnail animated fadeIn">
+    <a href="">
+      <img src="https://image.flaticon.com/icons/svg/994/994305.svg" alt="...">
+    </a>
+      <div class="caption">
+        <h4>Kemudahan Pembayaran</h4>
+        <p>Menyediakan berbagai metode pembayaran untuk bertransaksi</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-2 col-md-2">
+    <div class="thumbnail animated fadeIn">
+    <a href="">
+      <img src="https://image.flaticon.com/icons/png/512/149/149002.png" alt="...">
+    </a>
+      <div class="caption">
+        <h4>Kemudahan Akses Mobile</h4>
+        <p>Download aplikasi Bukalapak di Android dan iOS. Nikmati kemudahan jual beli dari gadget Anda</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-2 col-md-2">
+    <div class="thumbnail animated fadeIn">
+    <a href="">
+      <img src="https://image.flaticon.com/icons/svg/726/726455.svg" alt="...">
+    </a>
+      <div class="caption">
+        <h4>Berbagai Jasa Pengiriman</h4>
+        <p>Menyediakan berbagai pilihan jasa pengiriman dengan jangkauan nasional</p>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="col-md-6">
+	<h4>Metode Pembayaran : </h4>
+	<table class="table container" id="bayar">
+		<tr>	
+			<td><img src="http://indomaret.co.id/logo_indomaret.png" width="50"></td>
+			<td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/ALFAMART_LOGO_BARU.png" width="50"></td>
+			<td><img src="http://cdn2.tstatic.net/pontianak/foto/bank/images/jne_20180321_200135.jpg" width="50"></td>
+			<td><img src="https://tiki.id/asset/img/tiki-web-logo.png" width="50"></td>
+			<td><img src="https://www.jet.co.id/images/logo-red.png" width="50"></td>
+			<td><img src="https://www.keestore.com/wp-content/uploads/2018/05/go-send-by-go-jek-logo.png" width="50"></td>
+			<td><img src="https://cdn.worldvectorlogo.com/logos/grab.svg" width="50"></td>
+		</tr>
+
+	</table>
+</div>
+
+<div class="col-md-6">
+	<h4>Bank Transfer : </h4>
+	<table class="table container" id="bank">
+		<tr>	
+			<td><img src="https://www.bankmandiri.co.id/image/layout_set_logo?img_id=31567&t=1534843096913" width="50"></td>
+			
+			<td><img src="https://awsimages.detik.net.id/community/media/visual/2015/12/11/dc5fe3e7-954c-4755-846d-cd89e69c5309.jpg?w=780&q=90" width="50"></td>
+
+			<td><img src="https://statik.tempo.co/data/2010/10/20/id_51054/51054_620.jpg" width="50"></td>
+			<td><img src="https://upload.wikimedia.org/wikipedia/id/thumb/e/e0/BCA_logo.svg/1280px-BCA_logo.svg.png" width="50"></td>
+		</tr>
+
+	</table>
+</div>		
+
+</div>
+
+
+
+
+
+<script type="text/javascript" src="script/jquery.js"></script>
+<script src="script/waslidemenu/dist/jquery.waslidemenu.js" type="text/javascript"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>

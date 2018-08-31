@@ -1,0 +1,73 @@
+/*NAVBAR*/
+#cart{
+	width:30px;
+	margin-top: 10px;
+	margin-right: 60px
+}
+.nav-link {
+	list-style: none;
+}
+.nav-link a {
+	color:white;
+}
+#signin{border:1px solid white;padding: 10px; margin-top: 5px;}
+.navbar{
+	background-color: #A81C95;
+	display:flex;
+	border-radius: 0px;
+	background-attachment: fixed;
+}
+#cari{background-color:#BA2DFF; border-radius:0px; color:white; width: 100px;}
+/*NAVBAR*/
+
+/*PROMO*/
+/*PROMO*/
+
+/*HOT*/
+#hot{
+	background-color: #CE7AC2;
+	padding: 0px 10px 10px 10px;
+	color: white;
+}
+/*HOT*/
+
+/*==== PRODUK === */
+#product{
+	margin-top: 20px;
+	padding: 20px;
+}
+/*=== PRODUK ===*/
+
+/*=======KATEGORI======*/
+#kategori{
+	margin-top: 50px;
+	background-color: #eee;
+	padding: 50px;
+}
+/*=======KATEGORI======*/
+
+.harga{
+	color:#A81C95;
+	font-weight: bold; 
+}
+.harga-coret{
+	text-decoration:line-through;
+	color: red;
+}
+.icons{
+	width: 30px;
+}
+#tabel tr td a{
+	color:#A81C95;
+	font-weight: bold;
+	text-decoration: none;
+}
+#tabel tr td a:hover{
+	color: #CE7AC2;
+}
+#jaminan {
+	padding-top: 50px;
+}
+#bank,#bayar{
+	border-left:2px solid black;
+}
